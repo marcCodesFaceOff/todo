@@ -1,0 +1,69 @@
+mat-toolbar {
+  margin-bottom: 0px;
+}
+
+mat-toolbar > span {
+  margin-left: 10px;
+}
+
+mat-card {
+  border-width: 1px !important;
+  border-color: rgb(122, 120, 120) !important;
+}
+
+.content-wrapper {
+  max-width: 1400px;
+  margin: auto;
+  background-color: rgb(206, 215, 248);
+}
+
+.container-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  width: 400px;
+  margin: 0 20px 20px 0px;
+}
+
+.container-left {
+  width: 400px;
+  margin: 0 20px 20px 20px;
+}
+
+.list {
+  border: solid 1px #ccc;
+  min-height: 60px;
+  border-radius: 4px;
+}
+
+app-new-task {
+  margin-bottom: 30px;
+}
+
+.empty-label {
+  font-size: 2em;
+  padding-top: 10px;
+  text-align: center;
+  opacity: 0.2;
+}
+
+.cdk-drag-animating {
+  transition: transform 250ms;
+}
+
+.cdk-drag-placeholder {
+  opacity: 0;
+}
+
+:host {
+  display: block;
+  background-color: rgb(206, 215, 248);
+  min-height: 100%;
+}
+
+.item {
+  margin-bottom: 10px;
+  cursor: pointer;
+}

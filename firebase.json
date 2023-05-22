@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "christina-todo",
+      "public": "dist/christina-todo",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
